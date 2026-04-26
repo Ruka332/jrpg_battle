@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://kme5c4he53vr"]
+
+[node name="battle_ui" type="Control" unique_id=431339333]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ActionMenu" type="Panel" parent="." unique_id=1492542573]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CommandList" type="VBoxContainer" parent="ActionMenu" unique_id=748562314]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AttackButton" type="Button" parent="ActionMenu" unique_id=974229774]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="MagicButton" type="Button" parent="ActionMenu" unique_id=305395238]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="SkillButton" type="Button" parent="ActionMenu" unique_id=305972440]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ItemButton" type="Button" parent="ActionMenu" unique_id=826450999]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="TargetSelector" type="Panel" parent="." unique_id=1945251003]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TargetList" type="VBoxContainer" parent="TargetSelector" unique_id=150186172]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BackButton" type="Button" parent="TargetSelector" unique_id=695867363]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="StatusPanel" type="Panel" parent="." unique_id=1082538240]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="StatusGrid" type="GridContainer" parent="StatusPanel" unique_id=294431286]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BattleLogPanel" type="Panel" parent="." unique_id=1246942964]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LogContainer" type="VBoxContainer" parent="BattleLogPanel" unique_id=634503261]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Background" type="ColorRect" parent="." unique_id=961732478]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="jrpg_battle"
+run/main_scene="uid://kme5c4he53vr"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+battle_manager="*uid://g17uqqpw5owq"
+battle_log="*uid://cfovfamxugmmh"
 
 [physics]
 
